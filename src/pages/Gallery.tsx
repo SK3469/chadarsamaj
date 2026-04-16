@@ -15,15 +15,16 @@ import video from "@/assets/vid.mp4";
 
 
 const images = [
-  { src: gallery1, alt: "अधिवेशन की फोटो" },
+  { src: gallery1, alt: "अधिवेशन की फोटो   अधिवेशन की फोटोअधिवेशन की फोटोअधिवेशन की फोटोअधिवेशन की फोटोअधिवेशन की फोटो"     },
   { src: gallery2, alt: "अधिवेशन की फोटो" },
   { src: gallery3, alt: "अधिवेशन की फोटो" },
-];
-const images2 = [
   { src: gallery4, alt: "कार्यक्रम की फोटो" },
   { src: gallery5, alt: "कार्यक्रम की फोटो" },
   { src: gallery6, alt: "कार्यक्रम की फोटो" },
   { src: gallery7, alt: "कार्यक्रम की फोटो" },
+];
+const images2 = [
+  
 ];
 const images3 = [
   { src: gallery11, alt: "सम्मान समारोह" },
