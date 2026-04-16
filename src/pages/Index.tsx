@@ -4,7 +4,7 @@ import { Users, BookOpen, Heart, Award } from "lucide-react";
 import heroBanner from "@/assets/hero-banner.jpg";
 
 const highlights = [
-  { icon: Award, label: "राष्ट्रीय अध्यक्ष", value: "मुकेश आठया (दिल्ली)" },
+  { icon: Award, label: "राष्ट्रीय अध्यक्ष", value: "मुकेश आठया (दिल्ली)-" },
   { icon: Users, label: "उद्देश्य", value: "समाज को संगठित करना" },
   { icon: BookOpen, label: "फोकस", value: "शिक्षा, युवा, संस्कार" },
 ];
