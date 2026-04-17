@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Users, BookOpen, Heart, Award } from "lucide-react";
+import { Users, BookOpen, Heart, Award, NewspaperIcon } from "lucide-react";
 import heroBanner from "@/assets/hero-banner.jpg";
+import { Separator } from "@radix-ui/react-context-menu";
 
 const highlights = [
   { icon: Award, label: "राष्ट्रीय अध्यक्ष", value: "मुकेश आठया (दिल्ली)" },
@@ -41,27 +42,44 @@ const Index = () => (
           चढ़ार समाज राष्ट्रीय संगठन में आपका स्वागत है। यह संगठन समाज के विकास, एकता और सामाजिक उत्थान के लिए कार्यरत है।
         </motion.p>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-            to="/contact"
-            className="inline-block bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-secondary-warm transition-colors shadow-lg"
-          >
-            Join Us / जुड़ें
-          </Link>
-          <Link
-            to="/donation"
-            className="inline-block bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-secondary-warm transition-colors shadow-lg"
-          >
-            Donate / दान करे
-          </Link>
-        </div>
+              to="/contact"
+              className="inline-block bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-secondary-warm transition-colors shadow-lg"
+            >
+              Join Us / जुड़ें
+            </Link>
+            <Link
+              to="/donation"
+              className="inline-block bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-secondary-warm transition-colors shadow-lg"
+            >
+              Donate / दान करे
+            </Link>
+          </div>
         </motion.div>
       </div>
     </section>
     {/*Annousment*/}
-  <section>
-    Annousment
-  </section>
+    <section className="">
+      <div className="container mx-auto max-w-4xl text-center py-12">
+
+        <div className="bg-primary-light border border-border rounded-xl p-6">
+          <h1 className="text-3xl font-bold text-primary mb-4 border-b-2 border-secondary pb-2">
+            आगामी कार्यक्रम
+          </h1>
+          <NewspaperIcon className="mx-auto mb-4 text-secondary" size={48} />
+         
+          <h2 className="text-2xl font-bold text-primary mb-2">अधिवेशन 2026</h2>
+          <p className="text-foreground/80 mb-4">चढ़ार समाज का अगला राष्ट्रीय अधिवेशन -- को नई दिल्ली में आयोजित किया जाएगा। सभी सदस्यों से आग्रह है कि वे इस महत्वपूर्ण आयोजन में भाग लें और समाज के विकास में योगदान दें।</p>
+          <Link
+            to="/news"
+            className="inline-block bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-secondary-warm transition-colors"
+          >
+            और जानें →
+          </Link>
+        </div>
+      </div>
+    </section>
 
     {/* Highlights */}
     <section className="section-padding bg-card">
