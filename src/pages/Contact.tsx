@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Send } from "lucide-react";
 
 const Contact = () => {
-  const [form, setForm] = useState({ name: "", phone: "", message: "" });
+  const [form, setForm] = useState({ name: "", phone: "",address:"", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -33,8 +33,9 @@ const Contact = () => {
               <h2 className="text-2xl font-bold text-primary mb-4">संपर्क जानकारी</h2>
               {[
                 { icon: MapPin, label: "पता", value: "नई दिल्ली, भारत" },
-                { icon: Phone, label: "मोबाइल", value: "+91 9711668854" },
-                { icon: Mail, label: "ईमेल", value: "info@chadhaarsamaj.org" },
+                { icon: Phone, label: "राष्ट्रीय अध्यक्ष", value: "+91 9711668854" },
+                { icon: Phone, label: "राष्ट्रीय उपाध्यक्ष", value: "+91 9013488512" },
+                { icon: Mail, label: "ईमेल", value: "chadarsamajofficial@gmail.com" },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4 bg-card border border-border rounded-xl p-5">
                   <item.icon className="text-secondary shrink-0 mt-1" size={24} />
@@ -70,6 +71,14 @@ const Contact = () => {
                 value={form.phone}
                 onChange={(e) => setForm({ ...form, phone: e.target.value })}
                 className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+              />
+              <textarea
+                placeholder="पूरा पता दीजिए, एरिया और पिनकोड के साथ"
+                required
+                rows={4}
+                value={form.address}
+                onChange={(e) => setForm({ ...form, address: e.target.value })}
+                className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none"
               />
               <textarea
                 placeholder="आपका संदेश"

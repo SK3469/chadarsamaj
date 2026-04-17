@@ -9,6 +9,8 @@ const navLinks = [
   { to: "/president", label: "राष्ट्रीय अध्यक्ष" },
   { to: "/news", label: "समाचार" },
   { to: "/gallery", label: "गैलरी" },
+  { to: "/donation", label: "दान करे" },
+  { to: "/complaint", label: "शिकायत/समाधान " },
   { to: "/contact", label: "संपर्क" },
 ];
 

@@ -41,15 +41,27 @@ const Index = () => (
           चढ़ार समाज राष्ट्रीय संगठन में आपका स्वागत है। यह संगठन समाज के विकास, एकता और सामाजिक उत्थान के लिए कार्यरत है।
         </motion.p>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}>
-          <Link
+        <div className="space-x-5">
+            <Link
             to="/contact"
             className="inline-block bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-secondary-warm transition-colors shadow-lg"
           >
             Join Us / जुड़ें
           </Link>
+          <Link
+            to="/donation"
+            className="inline-block bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-secondary-warm transition-colors shadow-lg"
+          >
+            Donate / दान करे
+          </Link>
+        </div>
         </motion.div>
       </div>
     </section>
+    {/*Annousment*/}
+  <section>
+    Annousment
+  </section>
 
     {/* Highlights */}
     <section className="section-padding bg-card">
