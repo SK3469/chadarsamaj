@@ -41,7 +41,7 @@ const Index = () => (
           चढ़ार समाज राष्ट्रीय संगठन में आपका स्वागत है। यह संगठन समाज के विकास, एकता और सामाजिक उत्थान के लिए कार्यरत है।
         </motion.p>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}>
-        <div className="space-x-5">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
             to="/contact"
             className="inline-block bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-secondary-warm transition-colors shadow-lg"
