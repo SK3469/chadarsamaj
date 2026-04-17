@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { CheckCircle, Eye } from "lucide-react";
 import { useState } from "react";
+import Structure from "./Structure";
 
 const objectives = [
   "समाज में भाईचारा बढ़ाना",
@@ -12,7 +13,6 @@ const chapter1 = [
 "नाम: अखिल भारतीय चड़ार समाज संगठन",
 "क्षेत्र: सम्पूर्ण भारत",
 "मुख्य कार्यालय: (आवश्यकता अनुसार राज्य एवं जिला स्तर पर शाखाएं स्थापित की जाएंगी।)",
-
 ];
 // const constitution = [
 //   {
@@ -334,6 +334,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <Structure/>
     </div>
   );
 }

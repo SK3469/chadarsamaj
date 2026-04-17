@@ -193,9 +193,9 @@ const President = () => (
                 {item.location || "दिल्ली"}
               </p>
 
-              <p className="text-foreground/80 leading-relaxed mb-4 text-sm">
+              {/* <p className="text-foreground/80 leading-relaxed mb-4 text-sm">
                 {item.desc || "समाज सेवा में सक्रिय योगदान।"}
-              </p>
+              </p> */}
 
               <div className="bg-primary-light rounded-xl p-4 border-l-4 border-secondary">
                 <Quote className="text-secondary mb-2" size={22} />
@@ -250,9 +250,9 @@ const President = () => (
                 {item.location || "दिल्ली"}
               </p>
 
-              <p className="text-foreground/80 leading-relaxed mb-4 text-sm">
+              {/* <p className="text-foreground/80 leading-relaxed mb-4 text-sm">
                 {item.desc || "समाज सेवा में सक्रिय योगदान।"}
-              </p>
+              </p> */}
 
               <div className="bg-primary-light rounded-xl p-4 border-l-4 border-secondary">
                 <Quote className="text-secondary mb-2" size={22} />
@@ -307,9 +307,9 @@ const President = () => (
                 {item.location || "दिल्ली"}
               </p>
 
-              <p className="text-foreground/80 leading-relaxed mb-4 text-sm">
+              {/* <p className="text-foreground/80 leading-relaxed mb-4 text-sm">
                 {item.desc || "समाज सेवा में सक्रिय योगदान।"}
-              </p>
+              </p> */}
 
               <div className="bg-primary-light rounded-xl p-4 border-l-4 border-secondary">
                 <Quote className="text-secondary mb-2" size={22} />
