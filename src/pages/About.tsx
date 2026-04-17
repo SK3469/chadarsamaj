@@ -173,7 +173,7 @@ const About = () => {
               onClick={() => setActiveIndex(activeIndex === 2 ? null : 2)}
             >
               <div className="p-5 flex justify-between items-center">
-                <h3 className="font-semibold text-primary text-lg flex gap-2"><h2 className="font-bold text-secondary flex">🏛️अध्याय 1:</h2> संगठन का नाम, क्षेत्र एवं कार्यालय</h3>
+                <h3 className="font-semibold text-primary text-lg flex gap-2"><h2 className="font-bold text-secondary md:flex">🏛️अध्याय 1:</h2> संगठन का नाम, क्षेत्र एवं कार्यालय</h3>
                 <span>{activeIndex === 2 ? "−" : "+"}</span>
               </div>
 
