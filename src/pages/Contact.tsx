@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Send } from "lucide-react";
 
 const Contact = () => {
-  const [form, setForm] = useState({ name: "", phone: "",address:"", message: "" });
+  const [form, setForm] = useState({ name: "", phone: "", address: "", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -37,14 +37,34 @@ const Contact = () => {
                 { icon: Phone, label: "राष्ट्रीय उपाध्यक्ष", value: "+91 9013488512" },
                 { icon: Mail, label: "ईमेल", value: "chadarsamajofficial@gmail.com" },
               ].map((item, i) => (
-                <div key={i} className="flex  items-start gap-4 bg-card border border-border rounded-xl p-5">
+                <div
+                  key={i}
+                  className="flex items-start gap-4 bg-card border border-border rounded-xl p-5"
+                >
+                  {/* Icon */}
                   <item.icon className="text-secondary shrink-0 mt-1" size={24} />
-                  <div>
+
+                  {/* Text */}
+                  <div className="min-w-0">
                     <p className="font-semibold text-foreground">{item.label}</p>
-                    <p className="text-muted-foreground break-words max-w-full">{item.value}</p>
+
+                    <p className="text-muted-foreground break-all">
+                      {item.value}
+                    </p>
                   </div>
                 </div>
               ))}
+              {/* <div className="flex items-start gap-4 bg-card border border-border rounded-xl p-5">
+                <Mail className="text-secondary shrink-0 mt-1" size={24} />
+
+                <div className="flex flex-col min-w-0">
+                  <p className="font-semibold text-foreground">ईमेल</p>
+
+                  <p className="text-muted-foreground break-all">
+                    chadarsamajofficial@gmail.com
+                  </p>
+                </div>
+              </div> */}
             </motion.div>
 
             {/* Form */}
