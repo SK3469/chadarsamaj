@@ -37,7 +37,7 @@ const Contact = () => {
                 { icon: Phone, label: "राष्ट्रीय उपाध्यक्ष", value: "+91 9013488512" },
                 { icon: Mail, label: "ईमेल", value: "chadarsamajofficial@gmail.com" },
               ].map((item, i) => (
-                <div key={i} className="flex items-start gap-4 bg-card border border-border rounded-xl p-5">
+                <div key={i} className="flex-grow items-start gap-4 bg-card border border-border rounded-xl p-5">
                   <item.icon className="text-secondary shrink-0 mt-1" size={24} />
                   <div>
                     <p className="font-semibold text-foreground">{item.label}</p>
