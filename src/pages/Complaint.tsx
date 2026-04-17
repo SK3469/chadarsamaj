@@ -14,7 +14,7 @@ const Complaint = () => {
     const [form, setForm] = useState({ name: "", phone: "", address: "", message: "" });
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        const msg = encodeURIComponent(`नाम: ${form.name}\nफ़ोन: ${form.phone}\n पता: ${form.address} शिकायत: ${form.message}`);
+        const msg = encodeURIComponent(`नाम: ${form.name}\nफ़ोन: ${form.phone}\nपता: ${form.address}\nशिकायत: ${form.message}`);
         window.open(`https://wa.me/919711668854?text=${msg}`, "_blank");
     };
     const data = [
