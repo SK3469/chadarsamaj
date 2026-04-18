@@ -180,7 +180,7 @@ const About = () => {
                     🏛️ अध्याय 1:
                   </span>
 
-                  <span className="block md:inline">
+                  <span className="block md:inline text-center">
                     संगठन का नाम, क्षेत्र एवं कार्यालय
                   </span>
 
