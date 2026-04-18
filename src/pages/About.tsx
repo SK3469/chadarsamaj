@@ -10,9 +10,9 @@ const objectives = [
   "युवा वर्ग को आगे बढ़ाना",
 ];
 const chapter1 = [
-"नाम: अखिल भारतीय चड़ार समाज संगठन",
-"क्षेत्र: सम्पूर्ण भारत",
-"मुख्य कार्यालय: (आवश्यकता अनुसार राज्य एवं जिला स्तर पर शाखाएं स्थापित की जाएंगी।)",
+  "नाम: अखिल भारतीय चड़ार समाज संगठन",
+  "क्षेत्र: सम्पूर्ण भारत",
+  "मुख्य कार्यालय: (आवश्यकता अनुसार राज्य एवं जिला स्तर पर शाखाएं स्थापित की जाएंगी।)",
 ];
 // const constitution = [
 //   {
@@ -172,9 +172,24 @@ const About = () => {
               className="bg-card border border-border rounded-xl overflow-hidden cursor-pointer"
               onClick={() => setActiveIndex(activeIndex === 2 ? null : 2)}
             >
-              <div className="p-5 flex justify-between items-center">
-                <h3 className="font-semibold text-primary text-lg flex gap-2"><h2 className="font-bold text-secondary md:flex">🏛️अध्याय 1:</h2> संगठन का नाम, क्षेत्र एवं कार्यालय</h3>
-                <span>{activeIndex === 2 ? "−" : "+"}</span>
+              <div className="p-5 flex justify-between items-start gap-3">
+
+                <h3 className="font-semibold text-primary text-base md:text-lg leading-snug">
+
+                  <span className="font-bold text-secondary block md:inline">
+                    🏛️ अध्याय 1:
+                  </span>
+
+                  <span className="block md:inline">
+                    संगठन का नाम, क्षेत्र एवं कार्यालय
+                  </span>
+
+                </h3>
+
+                <span className="text-lg shrink-0">
+                  {activeIndex === 2 ? "−" : "+"}
+                </span>
+
               </div>
 
               <motion.div
@@ -186,9 +201,9 @@ const About = () => {
                   {chapter1.map((obj, i) => (
                     <motion.div
                       key={i}
-                     
+
                       viewport={{ once: true }}
-                     
+
                       className="flex items-start gap-3 bg-card border border-border rounded-xl p-5 "
                     >
                       <CheckCircle className="text-secondary shrink-0 mt-1" size={24} />
@@ -329,12 +344,12 @@ const About = () => {
               </motion.div>
             </motion.div> */}
 
-            
+
 
           </div>
         </div>
       </section>
-      <Structure/>
+      <Structure />
     </div>
   );
 }
