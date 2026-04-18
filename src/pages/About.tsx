@@ -176,7 +176,7 @@ const About = () => {
 
                 <h2 className="font-semibold text-primary text-base md:text-lg leading-snug">
 
-                  <span className="font-bold text-secondary block md:inline">
+                  <span className="font-bold text-secondary block md:inline text-center">
                     🏛️ अध्याय 1:
                   </span>
 
