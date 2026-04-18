@@ -153,7 +153,7 @@ const About = () => {
             >
               <div className="p-5 flex justify-between items-center">
                 <h3 className="font-semibold text-lg text-primary flex gap-3"> <h2 className="font-bold text-secondary flex">📜प्रस्तावना:</h2> अखिल भारतीय चड़ार समाज</h3>
-                <span>{activeIndex === 1 ? "−" : "+"}</span>
+                <span className="flex">{activeIndex === 1 ? "−" : "+"}</span>
               </div>
 
               <motion.div
@@ -172,15 +172,15 @@ const About = () => {
               className="bg-card border border-border rounded-xl overflow-hidden cursor-pointer"
               onClick={() => setActiveIndex(activeIndex === 2 ? null : 2)}
             >
-              <div className="p-5 flex justify-between items-start gap-3">
+              <div className="p-5 flex justify-between items-center gap-3">
 
-                <h2 className="font-semibold text-primary text-base md:text-lg leading-snug">
+                <h2 className="font-semibold text-primary text-base md:text-lg leading-snug w-2/3 ">
 
-                  <span className="font-bold text-secondary block md:inline text-center">
+                  <span className="font-bold text-secondary block md:inline ">
                     🏛️ अध्याय 1:
                   </span>
 
-                  <span className="block md:inline text-center">
+                  <span className="block md:inline ">
                     संगठन का नाम, क्षेत्र एवं कार्यालय
                   </span>
 
