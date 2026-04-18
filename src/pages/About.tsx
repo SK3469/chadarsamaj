@@ -174,7 +174,7 @@ const About = () => {
             >
               <div className="p-5 flex justify-between items-start gap-3">
 
-                <h3 className="font-semibold text-primary text-base md:text-lg leading-snug">
+                <h2 className="font-semibold text-primary text-base md:text-lg leading-snug">
 
                   <span className="font-bold text-secondary block md:inline">
                     🏛️ अध्याय 1:
@@ -184,7 +184,7 @@ const About = () => {
                     संगठन का नाम, क्षेत्र एवं कार्यालय
                   </span>
 
-                </h3>
+                </h2>
 
                 <span className="text-lg shrink-0">
                   {activeIndex === 2 ? "−" : "+"}
