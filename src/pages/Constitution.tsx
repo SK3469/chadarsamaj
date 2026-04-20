@@ -81,8 +81,8 @@ const Constitution = () => {
     <div>
            <section className="hero-gradient text-primary-foreground section-padding text-center">
         <div className="container mx-auto max-w-3xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">हमारे बारे में</h1>
-          <p className="text-primary-foreground/80 text-lg">About Us</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">संविधान</h1>
+          <p className="text-primary-foreground/80 text-lg">Constitution</p>
         </div>
       </section>
         <section className="section-padding bg-muted/30">
