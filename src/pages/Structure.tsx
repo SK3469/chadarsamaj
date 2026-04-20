@@ -73,7 +73,13 @@ const card = {
 const Structure = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 py-10 px-4">
-      
+      <section className="hero-gradient text-primary-foreground section-padding text-center">
+        <div className="container mx-auto max-w-3xl">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">संगठन का ढांचा</h1>
+          <p className="text-primary-foreground/80 text-lg">Structure</p>
+        </div>
+      </section>
+
       {/* TITLE */}
       <motion.h1
         initial={{ opacity: 0, y: -40 }}
