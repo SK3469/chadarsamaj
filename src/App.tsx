@@ -16,6 +16,9 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Donation from "./pages/Donation";
 import Complaint from "./pages/Complaint";
+import Rules from "./pages/Rules";
+import History from "./pages/History";
+import Constitution from "./pages/Constitution";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +40,9 @@ const App = () => (
               <Route path="/donation" element={<Donation />} />
               <Route path="/complaint" element={<Complaint />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/rules" element={<Rules />} />
+              <Route path="/history" element={<History />} /> 
+              <Route path="/constitution" element={<Constitution />} /> 
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
