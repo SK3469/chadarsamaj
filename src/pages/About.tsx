@@ -65,12 +65,12 @@ const About = () => {
           </motion.div>
         </div>
       </section>
-      <section className="section-padding bg-gray-100 ">
-        <h2 className="text-3xl font-bold text-primary mb-12 text-center  ">
+      <section className="section-padding bg-gray-100  ">
+        <h2 className="text-3xl font-bold text-primary mb-12 text-center border-b-[2.5px] border-secondary pb-4">
           महत्वपूर्ण जानकारी
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 p-4  gap-y-16  ">
-          <div className="container  mx-auto  max-w-2xl md:max-w-xl shadow-md rounded-2xl   ">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 p-  gap-y-16   ">
+          <div className="container border border-gray-300   mx-auto  max-w-2xl md:max-w-xl shadow-sm hover:shadow-md rounded-2xl hover:scale-[1.01] transition-transform   ">
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -80,7 +80,7 @@ const About = () => {
             >
 
               <BookAIcon className="mx-auto mb-4 text-primary" size={48} />
-              <h2 className="text-3xl font-bold text-primary mb-3">हमारा संविधान</h2>
+              <h2 className="text-2xl font-bold text-primary mb-3">हमारा संविधान</h2>
               <p className="text-foreground/80 text-lg">
                 "एक शिक्षित, संगठित और मजबूत चढ़ार समाज बनाना"
               </p>
@@ -91,7 +91,7 @@ const About = () => {
               </Link>
             </motion.div>
           </div>
-          <div className="container  mx-auto  max-w-2xl md:max-w-xl shadow-md rounded-2xl   ">
+          <div className="container border border-gray-300   mx-auto  max-w-2xl md:max-w-xl shadow-sm hover:shadow-md rounded-2xl hover:scale-[1.01] transition-transform   ">
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -101,7 +101,7 @@ const About = () => {
             >
 
               <BookAIcon className="mx-auto mb-4 text-primary" size={48} />
-              <h2 className="text-3xl font-bold text-primary mb-3">हमारा संविधान</h2>
+              <h2 className="text-2xl font-bold text-primary mb-3">हमारा संविधान</h2>
               <p className="text-foreground/80 text-lg">
                 "एक शिक्षित, संगठित और मजबूत चढ़ार समाज बनाना"
               </p>
@@ -112,7 +112,7 @@ const About = () => {
               </Link>
             </motion.div>
           </div>
-          <div className="container  mx-auto  max-w-2xl md:max-w-xl shadow-md rounded-2xl   ">
+          <div className="container border border-gray-300   mx-auto  max-w-2xl md:max-w-xl shadow-sm hover:shadow-md rounded-2xl hover:scale-[1.01] transition-transform   ">
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -122,7 +122,7 @@ const About = () => {
             >
 
               <BookAIcon className="mx-auto mb-4 text-primary" size={48} />
-              <h2 className="text-3xl font-bold text-primary mb-3">हमारा संविधान</h2>
+              <h2 className="text-2xl font-bold text-primary mb-3">हमारा संविधान</h2>
               <p className="text-foreground/80 text-lg">
                 "एक शिक्षित, संगठित और मजबूत चढ़ार समाज बनाना"
               </p>
@@ -133,7 +133,7 @@ const About = () => {
               </Link>
             </motion.div>
           </div>
-          <div className="container  mx-auto  max-w-2xl md:max-w-xl shadow-md rounded-2xl   ">
+          <div className="container border border-gray-300   mx-auto  max-w-2xl md:max-w-xl shadow-sm hover:shadow-md rounded-2xl hover:scale-[1.01] transition-transform   ">
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -143,7 +143,7 @@ const About = () => {
             >
 
               <BookAIcon className="mx-auto mb-4 text-primary" size={48} />
-              <h2 className="text-3xl font-bold text-primary mb-3">हमारा संविधान</h2>
+              <h2 className="text-2xl font-bold text-primary mb-3">हमारा संविधान</h2>
               <p className="text-foreground/80 text-lg">
                 "एक शिक्षित, संगठित और मजबूत चढ़ार समाज बनाना"
               </p>
