@@ -43,12 +43,14 @@ const Index = () => (
         </motion.p>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              to="/contact"
+            <a
+              href="https://forms.gle/FudHCuBhQekoCAHq6"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-secondary-warm transition-colors shadow-lg"
             >
               Join Us / जुड़ें
-            </Link>
+            </a>
             <Link
               to="/donation"
               className="inline-block bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-bold text-lg hover:bg-secondary-warm transition-colors shadow-lg"
@@ -68,7 +70,7 @@ const Index = () => (
             आगामी कार्यक्रम
           </h1>
           <NewspaperIcon className="mx-auto mb-4 text-secondary" size={48} />
-         
+
           <h2 className="text-2xl font-bold text-primary mb-2">अधिवेशन 2026</h2>
           <p className="text-foreground/80 mb-4">चढ़ार समाज का अगला राष्ट्रीय अधिवेशन -- को नई दिल्ली में आयोजित किया जाएगा। सभी सदस्यों से आग्रह है कि वे इस महत्वपूर्ण आयोजन में भाग लें और समाज के विकास में योगदान दें।</p>
           <Link

@@ -69,7 +69,7 @@ const About = () => {
         <h2 className="text-3xl font-bold text-primary mb-12 text-center border-b-[2.5px] border-secondary pb-4">
           महत्वपूर्ण जानकारी
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 p-  gap-y-16   ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-  gap-y-16   ">
           <div className="container border border-gray-300   mx-auto  max-w-2xl md:max-w-xl shadow-sm hover:shadow-md rounded-2xl hover:scale-[1.01] transition-transform   ">
 
             <motion.div
@@ -85,7 +85,51 @@ const About = () => {
                 "एक शिक्षित, संगठित और मजबूत चढ़ार समाज बनाना"
               </p>
               <Link to="/constitution">
-                <button  className="bg-secondary mt-4 text-white py-2 px-4 rounded-lg hover:bg-secondary/90 text-center transition-colors">
+                <button className="bg-secondary mt-4 text-white py-2 px-4 rounded-lg hover:bg-secondary/90 text-center transition-colors">
+                  संविधान पढ़ें
+                </button>
+              </Link>
+            </motion.div>
+          </div>
+          <div className="container border border-gray-300   mx-auto  max-w-2xl md:max-w-xl shadow-sm hover:shadow-md rounded-2xl hover:scale-[1.01] transition-transform   ">
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-2xl p-8 md:p-12 text-center"
+            >
+
+              <BookAIcon className="mx-auto mb-4 text-primary" size={48} />
+              <h2 className="text-2xl font-bold text-primary mb-3">चडार समाज का इचतहास</h2>
+              <p className="text-foreground/80 text-lg leading-relaxed">
+                भारत विविधताओं का देश है, जहाँ अनेक समाजों ने अपनी विशिष्ट पहचान, संस्कृति और परंपराओं के माध्यम से
+                राष्ट्र निर्माण में योगदान दिया है। चढ़ार समाज भी उन मेहनती और स्वाभिमानी समुदायों में से एक है, जिसने
+                अपने श्रम, ईमानदारी और सामाजिक एकता के बल पर अपनी अलग पहचान बनाई है।
+              </p>
+              <Link to="/constitution">
+                <button className="bg-secondary mt-4 text-white py-2 px-4 rounded-lg hover:bg-secondary/90 text-center transition-colors">
+                  पूरा इतिहास पढ़ें
+                </button>
+              </Link>
+            </motion.div>
+          </div>
+          <div className="container border border-gray-300   mx-auto  max-w-2xl md:max-w-xl shadow-sm hover:shadow-md rounded-2xl hover:scale-[1.01] transition-transform   ">
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-2xl p-8 md:p-12 text-center"
+            >
+
+              <BookAIcon className="mx-auto mb-4 text-primary" size={48} />
+              <h2 className="text-2xl font-bold text-primary mb-3">हमारा संविधान</h2>
+              <p className="text-foreground/80 text-lg">
+                "एक शिक्षित, संगठित और मजबूत चढ़ार समाज बनाना"
+              </p>
+              <Link to="/constitution">
+                <button className="bg-secondary mt-4 text-white py-2 px-4 rounded-lg hover:bg-secondary/90 text-center transition-colors">
                   संविधान पढ़ें
                 </button>
               </Link>
@@ -106,56 +150,14 @@ const About = () => {
                 "एक शिक्षित, संगठित और मजबूत चढ़ार समाज बनाना"
               </p>
               <Link to="/constitution">
-                <button  className="bg-secondary mt-4 text-white py-2 px-4 rounded-lg hover:bg-secondary/90 text-center transition-colors">
+                <button className="bg-secondary mt-4 text-white py-2 px-4 rounded-lg hover:bg-secondary/90 text-center transition-colors">
                   संविधान पढ़ें
                 </button>
               </Link>
             </motion.div>
           </div>
-          <div className="container border border-gray-300   mx-auto  max-w-2xl md:max-w-xl shadow-sm hover:shadow-md rounded-2xl hover:scale-[1.01] transition-transform   ">
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="bg-white rounded-2xl p-8 md:p-12 text-center"
-            >
 
-              <BookAIcon className="mx-auto mb-4 text-primary" size={48} />
-              <h2 className="text-2xl font-bold text-primary mb-3">हमारा संविधान</h2>
-              <p className="text-foreground/80 text-lg">
-                "एक शिक्षित, संगठित और मजबूत चढ़ार समाज बनाना"
-              </p>
-              <Link to="/constitution">
-                <button  className="bg-secondary mt-4 text-white py-2 px-4 rounded-lg hover:bg-secondary/90 text-center transition-colors">
-                  संविधान पढ़ें
-                </button>
-              </Link>
-            </motion.div>
-          </div>
-          <div className="container border border-gray-300   mx-auto  max-w-2xl md:max-w-xl shadow-sm hover:shadow-md rounded-2xl hover:scale-[1.01] transition-transform   ">
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="bg-white rounded-2xl p-8 md:p-12 text-center"
-            >
-
-              <BookAIcon className="mx-auto mb-4 text-primary" size={48} />
-              <h2 className="text-2xl font-bold text-primary mb-3">हमारा संविधान</h2>
-              <p className="text-foreground/80 text-lg">
-                "एक शिक्षित, संगठित और मजबूत चढ़ार समाज बनाना"
-              </p>
-              <Link to="/constitution">
-                <button  className="bg-secondary mt-4 text-white py-2 px-4 rounded-lg hover:bg-secondary/90 text-center transition-colors">
-                  संविधान पढ़ें
-                </button>
-              </Link>
-            </motion.div>
-          </div>
-         
-        
         </div>
 
       </section>
