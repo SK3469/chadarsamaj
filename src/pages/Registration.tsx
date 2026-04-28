@@ -9,7 +9,7 @@ const Registration = () => {
                     <p className="text-primary-foreground/80 text-lg">Membership/Marriage Registration</p>
                 </div>
             </section>
-            <section className='m-12 mx-auto max-w-3xl flex justify-center items-center gap-7 '>
+            <section className='m-12 p-6 mx-auto max-w-3xl flex justify-center items-center gap-7 '>
                 <div>
                     <a
                         href="https://forms.gle/LNHt1hVZe9hyxMT19"
