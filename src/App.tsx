@@ -19,6 +19,7 @@ import Complaint from "./pages/Complaint";
 import Rules from "./pages/Rules";
 import History from "./pages/History";
 import Constitution from "./pages/Constitution";
+import Registration from "./pages/Registration";
 
 const queryClient = new QueryClient();
 
@@ -43,6 +44,7 @@ const App = () => (
               <Route path="/rules" element={<Rules />} />
               <Route path="/history" element={<History />} /> 
               <Route path="/constitution" element={<Constitution />} /> 
+              <Route path="/registration" element={<Registration />} /> 
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
